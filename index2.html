@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="js2.js"></script>
+	<style type="text/css">
+		.header{
+			height: 50px;
+			width: 100%;
+			background-color:  #ff9999;
+			text-align: center;
+			line-height: 50px;
+		}
+		.main{
+			text-align: center;
+
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<p>Quotes Generator</p>
+	</div>
+
+	<div class="main">
+		<p>Pick <strong><u>type 1</u></strong>  or <strong><u>type 2</u></strong> 	quote</p>
+		Type 1<input type="radio" name="type" value="1">
+		Type 2<input type="radio" name="type" value="2"><br>
+		<p>Enter how many quotes to generate below</p>
+		1 <input type="radio" name="times" id="t1" value="1">
+		2 <input type="radio" name="times" id="t2" value="2">
+		3 <input type="radio" name="times" id="t3" value="3">
+		4 <input type="radio" name="times" id="t4" value="4">
+		5 <input type="radio" name="times" id="t5" value="5" style="margin-bottom: 10px"> <br>
+		<span style="color:#bfbfbf"><u>QuotesGenerator</u><span><button onclick="runSubmit()">Submit</button>
+	</div>
+
+	<p id="content"></p>
+
+	
+</body>
+</html>
